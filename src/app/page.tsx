@@ -17,7 +17,7 @@ export default function Home() {
         <p className="font-bold text-2xl lg:text-6xl text-center">
           Smart Green Garden
         </p>
-        <p className="text-sm text-center">
+        <p className="text-sm sm:text-base text-center">
           Fakultas Teknik dan Kejuruan Universitas Pendidikan Ganesha melakukan
           kerja sama kolaborasi bersama dengan PT. Dago Engineering, Bandung.
           Sebagai bentuk penggunaan teknologi, MBKM ini mengusung tema Smart
@@ -27,7 +27,7 @@ export default function Home() {
           matahari menggunakan panel surya.
         </p>
       </div>
-      <div className="mt-2 flex flex-col sm:flex-row md:flex-row lg:flex-row xl:flex-row justify-center items-center gap-6">
+      <div className="mt-2 flex flex-col sm:flex-row md:flex-row lg:flex-row xl:flex-row justify-center items-center gap-6 pb-4 sm:pb-6">
         <div className="flex flex-row justify-center items-center gap-6">
           <Popover placement="bottom" offset={10} showArrow>
             <PopoverTrigger>
@@ -167,25 +167,29 @@ export default function Home() {
         >
           <h2 className="sm:text-xl font-bold">
             Next-Gen Hydroponics{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
+            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none pl-1">
+              &rarr;
             </span>
           </h2>
-          <p className="text-xs opacity-50 pt-1">Kunjungi Project Tim 1</p>
+          <p className="text-xs sm:text-sm opacity-50 pt-1">
+            Kunjungi Project Tim 1
+          </p>
         </a>
         <a
           href="https://hydrohealth.vercel.app/"
-          className="bg-emerald-100 group rounded-xl border border-transparent px-5 py-7 transition-colors hover:border-gray-100 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+          className="bg-emerald-100 group rounded-xl border border-transparent px-5 py-7 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
           target="_blank"
           rel="noopener noreferrer"
         >
           <h2 className="sm:text-xl font-bold">
             Hydrohealth Project{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
+            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none pl-1">
+              &rarr;
             </span>
           </h2>
-          <p className="text-xs opacity-50 pt-1">Kunjungi Project Tim 2</p>
+          <p className="text-xs sm:text-sm opacity-50 pt-1">
+            Kunjungi Project Tim 2
+          </p>
         </a>
       </div>
     </main>
