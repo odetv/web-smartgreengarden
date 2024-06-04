@@ -158,34 +158,34 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="mb-32 grid text-center lg:mb-0 lg:w-full lg:max-w-5xl lg:grid-cols-2 gap-4">
+      <div className="mb-32 grid text-center lg:mb-0 w-full lg:w-full lg:max-w-5xl lg:grid-cols-2 gap-4">
         <a
           href="https://web-nextgenhydroponics.vercel.app/"
-          className="bg-emerald-100 group rounded-xl border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+          className="bg-emerald-100 group rounded-xl border border-transparent px-5 py-7 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <h2 className="mb-1 sm:text-xl font-bold p-2">
+          <h2 className="sm:text-xl font-bold">
             Next-Gen Hydroponics{" "}
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               -&gt;
             </span>
           </h2>
-          <p className="text-xs opacity-50">Kunjungi Project Tim 1.</p>
+          <p className="text-xs opacity-50 pt-1">Kunjungi Project Tim 1</p>
         </a>
         <a
           href="https://hydrohealth.vercel.app/"
-          className="bg-emerald-100 group rounded-xl border border-transparent px-5 py-4 transition-colors hover:border-gray-100 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+          className="bg-emerald-100 group rounded-xl border border-transparent px-5 py-7 transition-colors hover:border-gray-100 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <h2 className="mb-1 sm:text-xl font-bold p-2">
+          <h2 className="sm:text-xl font-bold">
             Hydrohealth Project{" "}
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               -&gt;
             </span>
           </h2>
-          <p className="text-xs opacity-50">Kunjungi Project Tim 2.</p>
+          <p className="text-xs opacity-50 pt-1">Kunjungi Project Tim 2</p>
         </a>
       </div>
     </main>
