@@ -12,7 +12,7 @@ import LogoDelectra from "@/assets/images/logo/LogoDelectra.png";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-center pt-10 sm:pt-0 gap-10 w-10/12 mx-auto">
+    <main className="flex min-h-screen flex-col items-center justify-center pt-10 sm:pt-0 gap-6 w-10/12 mx-auto">
       <div className="flex flex-col justify-center items-center gap-4">
         <p className="font-bold text-2xl lg:text-6xl text-center">
           Smart Green Garden
@@ -27,8 +27,8 @@ export default function Home() {
           matahari menggunakan panel surya.
         </p>
       </div>
-      <div className="mt-2 flex flex-col sm:flex-row md:flex-row lg:flex-row xl:flex-row justify-center items-center gap-6 pb-4 sm:pb-6">
-        <div className="flex flex-row justify-center items-center gap-6">
+      <div className="mt-2 flex flex-row sm:flex-row md:flex-row lg:flex-row xl:flex-row justify-center items-center gap-2 sm:gap-6 pb-4 sm:pb-6">
+        <div className="flex flex-row justify-center items-center gap-2 sm:gap-6">
           <Popover placement="bottom" offset={10} showArrow>
             <PopoverTrigger>
               <div>
@@ -60,7 +60,7 @@ export default function Home() {
               </div>
             </PopoverContent>
           </Popover>
-          <Popover placement="bottom" offset={10} showArrow>
+          {/* <Popover placement="bottom" offset={10} showArrow>
             <PopoverTrigger>
               <div>
                 <Image
@@ -90,9 +90,9 @@ export default function Home() {
                 </Button>
               </div>
             </PopoverContent>
-          </Popover>
+          </Popover> */}
         </div>
-        <div className="flex flex-row justify-center items-center gap-6">
+        <div className="flex flex-row justify-center items-center gap-2 sm:gap-6">
           <Popover placement="bottom" offset={10} showArrow>
             <PopoverTrigger>
               <div>
@@ -160,7 +160,7 @@ export default function Home() {
 
       <div className="mb-32 grid text-center lg:mb-0 w-full lg:w-full lg:max-w-5xl lg:grid-cols-2 gap-4">
         <a
-          href="https://web-nextgenhydroponics.vercel.app/"
+          href="https://nextgen.smartgreenovation.com/"
           className="bg-emerald-100 group rounded-xl border border-transparent px-5 py-7 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
           target="_blank"
           rel="noopener noreferrer"
@@ -176,7 +176,7 @@ export default function Home() {
           </p>
         </a>
         <a
-          href="https://hydrohealth.vercel.app/"
+          href="https://hydrohealth.smartgreenovation.com/"
           className="bg-emerald-100 group rounded-xl border border-transparent px-5 py-7 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
           target="_blank"
           rel="noopener noreferrer"
